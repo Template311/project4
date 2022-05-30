@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header h1{
+    text-align: center;
+    font-size: 75px;
+    color: white;
+    background: black;
+}
+.navbar ul{
+    width: 100%;
+    height: 50px;
+    background: seagreen;
+    display: flex;
+   
+}
+.navbar ul li{
+    list-style: none;
+    margin-left: 190px;
+    margin-top: 15px;
+    font-size: 28px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    margin-left: 50px;
+    margin-top: 10px;
+    color: white;
+}
+.navbar ul li a:hover{
+    color: darkorange;
+}
+.container{
+    display: flex;
+}
+.thirdflow h2{
+    font-size: 50px;
+    color: green;
+    margin-left: 300px;
+    margin-top: 100px;
+
+}
+.thirdflow p{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 15px;
+    margin-left: 150px;
+
+}
+.getstarted{
+    margin-left: 250px;
+    margin-top: 50px;
+    background: green;
+    width: 30%;
+    height: 50px;
+    text-align: center;
+    border-radius: 25px;
+}
+.getstarted a{
+    text-decoration: none;
+}
+.getstarted h1{
+    color: white;
+}
+.getstarted h1:hover{
+    color: white;
+}
+.fourthflow{
+    width: 80%;
+    margin-left: 130px;
+    background: darkcyan;
+    border-radius: 5px;
+}
+.about{
+    display: flex;
+}
+.about img{
+    width: 3%;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+.about h1{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.fourthflow h1{
+    margin-left: 25px;
+    font-size: 45px;
+    color:floralwhite;
+}
+.fourthflow-content{
+    color:  black;
+    background: white;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+.fourthflow-content p{
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.readmore{
+    width: 15%;
+    height: 30px;
+    border-radius: 10px;
+    background: green;
+    margin-top: 12px;
+    margin-left: 25px;
+}
+.readmore h2{
+    color: white;
+    text-align: center;
+}
+.images2 img{
+    display: flexbox;
+    width: 25%;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.programmes{
+    height: 1500px;
+    text-align: center;
+    margin-top: 90px;
+    background: lightcyan;
+}
+.programmes h1{
+    margin-top: 45px;
+    margin-bottom: 30px;
+    font-size: 45px;
+}
+.programmes p{
+    font-size: 25px;
+}
+.program1{
+    width: 98%;
+    height: 1210px;
+    margin-top: 65px;
+    background: white;
+    margin-left: 14px;
+    border-radius: 12px;
+    border-style:initial;
+}
+.program1 img{
+    width: 100%;
+    height: 600px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.program1-content{
+    text-align: left;
+    margin-left: 45px;
+    margin-top: 35px;
+    font-family: sans-serif;
+}
+.program1-content h2{
+    font-size: 45px;
+    color: rgb(251, 255, 0);
+}
+.program1-content p{
+    margin-top: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 15px;
+}
+.apply{
+    width: 20%;
+    height: 70px;
+    background: darkgreen;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 45px;
+}
+.apply a{
+    text-decoration: none;
+}
+.apply a h1{
+    color: white;
+    text-align: center; 
+    font-size: 25px;
+    font-family: sans-serif; 
+}
+.learn{
+    width: 20%;
+    height: 70px;
+    background: lightgreen;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 45px;
+}
+.learn a{
+    text-decoration: none;
+}
+.learn a p{
+    color: white;
+    text-align: center; 
+    font-size: 25px;
+    font-family: sans-serif; 
+}
+.submit{
+    width: 70%;
+    height: 350px;
+    background: orangered;
+    margin-top: 80px;
+    margin-left: 200px;
+}
+.submit p{
+    color: white;
+    font-size: 65px;
+    margin-left: 45px;
+}
+.getstarted2{
+    width: 45%;
+    height: 100px;
+    background: white;
+    margin-left: 55px;
+    margin-top: 25px;
+}
+.getstarted2 a{
+    text-decoration: none;
+    color: black;
+}
+.getstarted2 h3{
+    text-align: center;
+}
+.news{
+    background: white;
+}
+.news h2{
+    font-size: 55px;
+    text-align: center;
+    margin-top: 85px;
+}
+.news p{
+    margin-top: 36px;
+    font-size: 25px;
+    text-align: center;
+}
+.news-container{
+    width: 90%;
+    height: 850px;
+    background: whitesmoke;
+    margin-left: 70px;
+    margin-top: 100px;
+}
+.news-container img{
+    width: 100%;
+    height: 550px;
+    margin-left: 0px;
+}
+.news-content{
+    width: 90%;
+    height: 100px;
+    background: white;
+    margin-left: 70px;
+}
+.news-content h2{
+    margin-left: 25px;
+    margin-top: 25px;
+}
+.news-content p{
+    margin-top: 15px;
+    margin-left: 25px;
+}
+.morepages{
+    width: 15%;
+    height: 50px;
+    background: rgb(37, 100, 37);
+    margin-left: 560px;
+    margin-top: 45px;
+    border-radius: 12px;
+}   
+.text{
+    color: white;
+}
+.text{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 35px;
+}
+.email-cont{
+    width: 50%;
+    height: 240px;
+    background: lightseagreen;
+    margin-top: 35px;
+    margin-left: 55px;
+    border-radius: 15px;
+}
+.email{
+    display: flex;
+    width: 50%;
+    height: 170px;
+    background: lightseagreen;
+    margin-top: 35px;
+    margin-left: 55px;
+}
+.email h4{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-left: 15px;
+    margin-top: 80px;
+    color: white;
+}
+.email input{
+    width: 45%;
+    height: 55px;
+    margin-left: 20px;
+    margin-top: 65px;
+    border-radius: 10px;
+    
+}
+.send{
+    width: 15%;
+    height: 55px;
+    background: white;
+    margin-left: 230px;
+    border-radius: 10px;
+}
+.send a{
+    text-decoration: none;
+    color: seagreen;
+    text-align: center;
+    margin-top: 25px;    
+}
+.send a h2{
+    font-size: 30px;
+}
+.footer{
+    width: 100%;
+    height: 450px;
+    background: black;
+    margin-top: 55px;
+}
+.footer-content{
+    display: flex;
+    color: white;
+}
+.footer-content img{
+    width: 10%;
+    margin-left: 400px;
+    margin-top: 80px;
+}
+.footer-content h1{
+    width: 10%;
+    font-size: 130px;
+    margin-left: 30px;
+    margin-top: 100px;
+}
+.footer-content2{
+    display: flex;
+    margin-left: 400px;
+    margin-top: 50px;
+}
+.footer-content2 a{
+    text-decoration: none;
+    font-size: 25px;
+    font-family: serif;
+    color: white;
+}
+.footer p{
+    color: white;
+    text-align: center;
+    margin-right: 20px;
+    margin-top: 20px;
+
+}
